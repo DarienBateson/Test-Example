@@ -7,10 +7,10 @@ Let's make a game!
 	version:1
 
 Settings
-	background:Face Man happy.png
+	spritesheet:icons, 48 by 48, https://i.imgur.com/uTDZUty.png
+	background:icons[0,1]
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, https://i.imgur.com/uTDZUty.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:icons[0,0]
+		icon:icons[1,3]
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
