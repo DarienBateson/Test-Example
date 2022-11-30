@@ -13,6 +13,11 @@ Settings
 	building cost refund:50%
 	stylesheet:stuff/bigBlue.css
 	
+on load:
+	log You explore [n:this]!
+ 	gain 1 landsExplored
+end
+	
 Layout
 	use default
 		
