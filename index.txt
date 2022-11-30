@@ -13,10 +13,7 @@ Settings
 	building cost refund:50%
 	stylesheet:stuff/bigBlue.css
 	
-on load:
-	log You explore [n:this]!
- 	gain 1 landsExplored
-end
+
 	
 Layout
 	use default
@@ -29,6 +26,9 @@ Buttons
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:https://i.imgur.com/NWxqEXn.png
+			on click:
+			log You explore [n:this]!
+ 			gain 1 landsExplored
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
