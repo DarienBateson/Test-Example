@@ -12,6 +12,14 @@ Settings
 	building cost increase:115%
 	building cost refund:50%
 	stylesheet:stuff/bigBlue.css
+	
+CSS
+
+	.testAcheiv
+	{
+   	 width:280px;
+   	 height:280px;
+	}
 
 Layout
 	use default
@@ -424,12 +432,7 @@ Achievements
 		icon:icons[0,1] icons[0,4]
 		
 	*testAchiev
-		 CSS
- 		 .thing-icon,.particle
- 		 {
-		    width:64px;
-	 	   height:64px;
- 		 }
+		
 		name:Test!!
 		desc:Complete building the <b>TEST</b>.<//>This is it. You beat the TEST!
 		req:1 Pen
