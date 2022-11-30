@@ -27,8 +27,7 @@ Buttons
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:https://i.imgur.com/NWxqEXn.png
 			on click:
-			log You explore [n:this]!
- 			gain 1 landsExplored
+			log You explore Test!
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
