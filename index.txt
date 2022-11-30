@@ -441,10 +441,10 @@ Achievements
 	*testAchiev2
 
 		name:Test 2!!
-		class:testAnimation
 		desc:Complete building the <b>TEST</b>.<//>This is it. You beat the TEST!
 		req:1 meadow
 		icon:icons[3,8] icons[0,4]
+		icon class:testAnimation
 
 
 	
