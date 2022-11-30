@@ -13,14 +13,6 @@ Settings
 	building cost refund:50%
 	stylesheet:stuff/bigBlue.css
 	
-CSS
-	.testAnimation
-	{
-	
-   	 width:200%;
-   	 height:200%;
-	}
-
 Layout
 	use default
 		
