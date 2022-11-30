@@ -424,6 +424,12 @@ Achievements
 		icon:icons[0,1] icons[0,4]
 		
 	*testAchiev
+		 CSS
+ 		 .thing-icon,.particle
+ 		 {
+		    width:64px;
+	 	   height:64px;
+ 		 }
 		name:Test!!
 		desc:Complete building the <b>TEST</b>.<//>This is it. You beat the TEST!
 		req:1 Pen
