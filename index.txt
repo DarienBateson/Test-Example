@@ -17,6 +17,8 @@ Settings
 	
 Layout
 	use default
+	*log
+		contains:Log
 		
 Buttons
 	*bunnyButton
